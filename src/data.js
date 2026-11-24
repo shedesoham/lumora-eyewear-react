@@ -8,14 +8,14 @@ export const FRAME_COLORS = {
 };
 
 export const products = [
-  { id: 1, name: 'The Arlo', subtitle: 'Everyday rectangle', color: 'midnight', category: 'Eyeglasses', shape: 'square', price: 2499, oldPrice: 3299, tag: 'BESTSELLER', bg: 'sand', rating: '4.9', reviews: 126 },
-  { id: 2, name: 'The Sienna', subtitle: 'Soft cat-eye', color: 'amber', category: 'Eyeglasses', shape: 'cat', price: 2899, oldPrice: 3599, tag: 'NEW DROP', bg: 'lavender', rating: '4.8', reviews: 94 },
-  { id: 3, name: 'The Nico', subtitle: 'Effortless round', color: 'olive', category: 'Eyeglasses', shape: 'round', price: 2199, oldPrice: 2799, tag: '', bg: 'mint', rating: '4.9', reviews: 78 },
-  { id: 4, name: 'The Sol', subtitle: 'Modern aviator', color: 'blue', category: 'Sunglasses', shape: 'aviator', price: 3299, oldPrice: 4199, tag: 'TRENDING', bg: 'peach', rating: '4.9', reviews: 153 },
-  { id: 5, name: 'The Iris', subtitle: 'Lightweight classic', color: 'crystal', category: 'Eyeglasses', shape: 'square', price: 2799, oldPrice: 3499, tag: 'NEW DROP', bg: 'peach', rating: '4.7', reviews: 61 },
-  { id: 6, name: 'The Remy', subtitle: 'Playful optical', color: 'rose', category: 'Blue Light', shape: 'round', price: 2599, oldPrice: 3199, tag: '', bg: 'lavender', rating: '4.8', reviews: 82 },
-  { id: 7, name: 'The Atlas', subtitle: 'Statement square', color: 'amber', category: 'Sunglasses', shape: 'square', price: 3499, oldPrice: 4299, tag: 'HOT', bg: 'sand', rating: '4.9', reviews: 115 },
-  { id: 8, name: 'The Cleo', subtitle: 'Blue-light essential', color: 'midnight', category: 'Blue Light', shape: 'cat', price: 2399, oldPrice: 2999, tag: '', bg: 'mint', rating: '4.6', reviews: 53 },
+  { id: 1, photoId: 25651729, name: 'The Arlo', subtitle: 'Everyday rectangle', color: 'midnight', category: 'Eyeglasses', shape: 'square', price: 2499, oldPrice: 3299, tag: 'BESTSELLER', bg: 'sand' },
+  { id: 2, photoId: 5752398, name: 'The Sienna', subtitle: 'Soft cat-eye', color: 'amber', category: 'Eyeglasses', shape: 'cat', price: 2899, oldPrice: 3599, tag: 'NEW DROP', bg: 'lavender' },
+  { id: 3, photoId: 14482342, name: 'The Nico', subtitle: 'Effortless round', color: 'olive', category: 'Eyeglasses', shape: 'round', price: 2199, oldPrice: 2799, tag: '', bg: 'mint' },
+  { id: 4, photoId: 9773861, name: 'The Sol', subtitle: 'Modern aviator', color: 'blue', category: 'Sunglasses', shape: 'aviator', price: 3299, oldPrice: 4199, tag: 'TRENDING', bg: 'peach' },
+  { id: 5, photoId: 13430490, name: 'The Iris', subtitle: 'Lightweight classic', color: 'crystal', category: 'Eyeglasses', shape: 'square', price: 2799, oldPrice: 3499, tag: 'NEW DROP', bg: 'peach' },
+  { id: 6, photoId: 14177666, name: 'The Remy', subtitle: 'Playful optical', color: 'rose', category: 'Blue Light', shape: 'round', price: 2599, oldPrice: 3199, tag: '', bg: 'lavender' },
+  { id: 7, photoId: 3999780, name: 'The Atlas', subtitle: 'Statement square', color: 'amber', category: 'Sunglasses', shape: 'square', price: 3499, oldPrice: 4299, tag: 'HOT', bg: 'sand' },
+  { id: 8, photoId: 32398468, name: 'The Cleo', subtitle: 'Blue-light essential', color: 'midnight', category: 'Blue Light', shape: 'cat', price: 2399, oldPrice: 2999, tag: '', bg: 'mint' },
 ];
 
 export const rupees = (value) => `₹${value.toLocaleString('en-IN')}`;
